@@ -9,7 +9,7 @@ Per tale scopo, il microservizio utilizza la **Consumer API** di Kafka e l'**API
 
 ### Configurazione
 E' possibile configurare l'ETL_L2 mediante un file di properties, passato contestualmente al lancio del servizio, 
-mediante l'opzione java `-Dproperties.file="Injector.properties"`, contenente i seguenti campi:
+mediante l'opzione java `-Dproperties.file="ETL_L1.properties"`, contenente i seguenti campi:
 
 - **Kafka.servers**: elenco di coppie `host:port` separate da virgola ',', usato nel caso in cui `OuputAdapter` sia `KafkaOutputChannelAdapter`
 - **MongoDB.server**: URL per il server MongoDB
